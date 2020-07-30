@@ -14,7 +14,7 @@
         @click="item.method()"
         v-for="(item, index) in exportBut"
       >
-        <el-button type="primary">{{item.title}}</el-button>
+        <el-button size="small" type="primary">{{item.title}}</el-button>
       </a>
     </div>
 
